@@ -1,0 +1,65 @@
+@mixin btn($width, $height, $bgcolor, $color, $letter-spacing: 0) {
+	display: block;
+	box-sizing: border-box;
+	width: $width;
+	height: $height;
+	padding-left: $letter-spacing;
+	line-height: $height;
+	background-color: $bgcolor;
+	color: $color;
+	letter-spacing: $letter-spacing;
+	text-align: center;
+	transition: color .5s, background-color .5s;
+
+}
+
+
+@mixin btnl($width, $height, $color, $letter-spacing: 0) {
+	display: block;
+	box-sizing: border-box;
+	width: $width;
+	height: $height;
+	padding-left: $letter-spacing;
+	line-height: $height;
+	border: 1px solid $color;
+	color: $color;
+	letter-spacing: $letter-spacing;
+	text-align: center;
+	transition: color .5s, background-color .5s;
+}
+
+@mixin btnr($width, $height, $bgcolor, $color, $radius, $letter-spacing: 0) {
+	display: block;
+	box-sizing: border-box;
+	width: $width;
+	height: $height;
+	padding-left: $letter-spacing;
+	line-height: $height;
+	background-color: $bgcolor;
+	color: $color;
+	letter-spacing: $letter-spacing;
+	border-radius: $radius;
+	text-align: center;
+	transition: color .5s, background-color .5s;
+}
+
+
+@mixin btnrl($width, $height, $bdcolor, $color, $radius, $letter-spacing: 0) {
+	display: block;
+	box-sizing: border-box;
+	width: $width;
+	height: $height;
+	padding-left: $letter-spacing;
+	line-height: $height;
+	border: 1px solid $bdcolor;
+	color: $color;
+	letter-spacing: $letter-spacing;
+	border-radius: $radius;
+	text-align: center;
+	transition: color .5s, background-color .5s;
+}
+
+@mixin btn-hover($bgcolor, $color: #fff) {
+	background-color: $bgcolor;
+	color: $color;
+}

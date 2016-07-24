@@ -1,0 +1,54 @@
+.f-left {
+	float: left;
+}
+.f-right {
+	float: right;
+}
+.t-left {
+	text-align: left;
+}
+.t-center {
+	text-align: center;
+}
+.t-right {
+	text-align: right;
+}
+.b-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.vertical-center {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.overflow-hidden {
+	overflow: hidden;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.fixed {
+    position: fixed;
+}
+.box {
+    box-sizing: border-box;
+}
+.bfc {
+	display: inline-block;
+	width: 100%;
+}

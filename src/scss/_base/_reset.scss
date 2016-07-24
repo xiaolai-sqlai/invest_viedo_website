@@ -1,0 +1,104 @@
+ html {
+ 	-ms-text-size-adjust: 100%; 
+ 	-webkit-text-size-adjust: 100%;
+ }
+ body {
+  font-family: "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+}
+ body,
+ ul,
+ p {
+ 	margin: 0;
+ 	padding: 0;
+ }
+ li {
+ 	list-style: none;
+ }
+ article,
+ aside,
+ details,
+ footer,
+ header,
+ hgroup,
+ main,
+ button,
+ menu,
+ nav,
+ section{
+ 	display: block;
+ }
+ audio,
+ canvas,
+ progress,
+ video {
+ 	display: inline-block;
+ 	vertical-align: baseline;
+ }
+ audio:not([controls]) {
+ 	display: none;
+ 	height: 0;
+ }
+ a {
+ 	text-decoration: none;
+ 	background-color: transparent;
+ 	color: #333;
+ }
+ a:active,
+ a:hover {
+ 	outline: 0;
+ }
+ img {
+ 	border: 0;
+ }
+ button,
+ input,
+ select,
+ textarea {
+ 	display: block;
+ 	color: inherit;
+ 	font: inherit;
+ 	margin: 0;
+ }
+ button {
+ 	overflow: visible;
+ }
+ button,
+ html input[type="button"],
+ input[type="submit"] {
+ 	-webkit-appearance: button;
+ 	cursor: pointer;
+ }
+ button[disabled],
+ html input[disabled] {
+ 	cursor: default;
+ }
+ input[type="checkbox"],
+ input[type="radio"] {
+ 	box-sizing: border-box;
+ 	padding: 0;
+ }
+ textarea {
+ 	overflow: auto;
+ }
+ table {
+ 	border-collapse: collapse;
+ 	border-spacing: 0;
+ }
+ td,
+ th {
+ 	padding: 0;
+ }
+ input,
+ textarea {
+  	outline: 0;	
+ }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
