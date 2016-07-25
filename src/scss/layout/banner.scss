@@ -1,0 +1,14 @@
+#banner {
+	li {
+		position: relative;
+	}
+	img {
+		width: 100%;
+	}
+	.more {
+		position: absolute;
+		top: 70%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}

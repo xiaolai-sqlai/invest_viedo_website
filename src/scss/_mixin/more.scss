@@ -1,0 +1,8 @@
+.more {
+	@include btnr(130px, 45px, $bg-color, #fff, 5px, 30px);
+	font-size: 20px;
+	box-shadow: 0 5px 15px #666;
+	&:hover {
+		background-color: $font-color;
+	}
+}	

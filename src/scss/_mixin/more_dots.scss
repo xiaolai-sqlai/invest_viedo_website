@@ -1,0 +1,17 @@
+.more_dots {
+	width: 50px;
+	height: 30px;
+	line-height: 30px; 
+	text-align: center;
+	span {
+		border-radius: 50%;
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		background: $bg-color;
+		transition: .5s;
+	}
+	&:hover span {
+		background-color: $font-color;
+	}
+}

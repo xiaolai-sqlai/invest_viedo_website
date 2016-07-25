@@ -39,8 +39,8 @@ gulp.task('scss', function () {
     .pipe(scss())
     .pipe(sourcemaps.write())
     .pipe(autoprefixer({
-     browsers: ['last 2 versions', 'Android >= 4.0']
- }))
+       browsers: ['last 2 versions', 'Android >= 4.0']
+    }))
     .pipe(gulp.dest('src/css'));
 });
 

@@ -1,0 +1,23 @@
+header {
+	height: 75px;
+	.logo {
+		width: 200px;
+		height: 75px;
+		background-size: cover;
+		background: url("../images/logo.png") center no-repeat;
+	}	
+	nav a{
+		float: left;
+		margin: 0 25px;
+		height: 70px;
+		border-top: 5px solid #fff;
+		line-height: 70px;
+		font-size: 18px;
+		letter-spacing: 5px;
+		color: $font-color;
+		transition: .5s;
+		&:hover {
+			border-top: 5px solid $bg-color;
+		}
+	}
+}

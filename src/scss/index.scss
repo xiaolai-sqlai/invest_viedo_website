@@ -1,0 +1,19 @@
+@import "_base/_config.scss";
+@import "_base/_reset.scss";
+@import "_base/_grid.scss";
+@import "_base/_font.scss";
+@import "_base/_position.scss";
+
+@import "_mixin/_button.scss";
+@import "_mixin/more.scss";
+@import "_mixin/news_item.scss";
+@import "_mixin/more_dots.scss";
+@import "_mixin/title.scss";
+@import "_mixin/activities_item.scss";
+
+@import "layout/header.scss";
+@import "layout/banner.scss";
+@import "layout/news_plan.scss";
+@import "layout/video_banner.scss";
+@import "layout/news_daily.scss";
+@import "layout/activity.scss";
