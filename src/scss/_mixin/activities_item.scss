@@ -2,4 +2,23 @@
 	border-radius: 5px;
 	box-shadow: 0px 3px 20px $shadow-color;
 	overflow: hidden;
+	div {
+		padding: 25px;
+		color: $dfont-color;
+	}
+	span {
+		font-size: 14px;
+	}
+	h2 {
+		font-size: 36px;
+		margin-top: 20px;
+	}
+	p {
+		line-height: 40px;
+		margin-top: 20px;
+	}
+	.more {
+		margin-top: 40px;
+		margin-right: 20px;
+	}
 }

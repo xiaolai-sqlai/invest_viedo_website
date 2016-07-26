@@ -1,0 +1,27 @@
+footer {
+	margin-top: 140px;
+	background: url("../images/footer.jpg") no-repeat center;
+	background-size: cover;
+	&::after {
+		content: "";
+		display: inline-block;
+		padding-bottom: 25%;
+		width: .1px;
+	}
+	.col {
+		padding-left: 80px;
+		padding-right: 40px;
+	}
+	h2 {
+		font-weight: bold;
+		margin-top: 15%;
+	}
+	p {
+		line-height: 28px;
+		margin-top: 25px; 
+	}
+	h2,
+	p {
+		color: #fff;
+	}
+}
