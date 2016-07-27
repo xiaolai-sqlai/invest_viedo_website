@@ -1,7 +1,12 @@
 footer {
-	margin-top: 140px;
+	margin-top: 160px;
 	background: url("../images/footer.jpg") no-repeat center;
 	background-size: cover;
+	#backtop {
+		top: -100px;
+		left: 50%;
+		margin-left: 608px;
+	}
 	&::after {
 		content: "";
 		display: inline-block;

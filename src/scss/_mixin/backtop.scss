@@ -1,0 +1,10 @@
+#backtop {
+	@include btnr(64px, 64px, $font-color, $font-color, 50%);
+	box-shadow: 0 5px 15px #666;
+	background-image: url("../images/backtop.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	&:hover {
+		opacity: 0.6;
+	}
+}
