@@ -1,0 +1,27 @@
+.list {        
+	box-sizing: border-box;                                                                                                                                                                                                                                                          
+	display:block;
+	min-height: 170px;
+	padding-top: 20px;
+	border-bottom: 1px solid $border-color;
+	h2 {
+		display: inline-block;
+		font-size: 24px;
+		color: $dfont-color;
+	}
+	span {
+		margin-left: 30px;
+		font-size: 14px;
+		color: #999;
+	}
+	p.col {
+		line-height: 30px;
+		font-size: 14px;
+	}
+	.tag p {
+		margin-top: 20px;
+		margin-right: 60px;
+		font-size: 14px;
+		color: $font-color;
+	}
+}

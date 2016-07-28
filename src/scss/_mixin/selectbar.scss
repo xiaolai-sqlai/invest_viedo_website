@@ -1,0 +1,23 @@
+#selectbar {
+	margin-top: 50px;
+	height: 60px;
+	border-radius: 5px;
+	box-shadow: 0px 3px 20px $shadow-color;
+	li {
+		float: left;
+		margin-left: 20px;
+		padding: 0 20px;
+		height: 55px;
+		border-bottom: 5px solid #fff;
+	}
+	li:hover,
+	.active {
+		border-bottom-color: $bg-color;
+	}
+	a {
+		display: block;
+		font-size: 18px;
+		line-height: 60px;
+		color: $dfont-color;
+	}
+}

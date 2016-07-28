@@ -1,0 +1,17 @@
+#page {
+	margin-top: 50px;
+	li {
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		color: #fff;
+		background-color: #a0a0a0;
+		border-radius: 50%;
+		margin: 0 10px;
+	}
+	li:hover,
+	.active {
+		background-color: $bg-color;
+	}
+}

@@ -11,6 +11,10 @@
 @import "_mixin/title.scss";
 @import "_mixin/activities_item.scss";
 @import "_mixin/backtop.scss";
+@import "_mixin/selectbar.scss";
+@import "_mixin/list.scss";
+@import "_mixin/like.scss";
+@import "_mixin/page.scss";
 
 @import "layout/header.scss";
 @import "layout/banner.scss";
@@ -19,3 +23,4 @@
 @import "layout/news_daily.scss";
 @import "layout/activity.scss";
 @import "layout/footer.scss";
+@import "layout/contentlist.scss";

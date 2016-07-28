@@ -1,0 +1,11 @@
+.like {
+	@include btnr(64px, 64px, $border-color, $border-color, 5px);
+	border: none;
+	background-image: url("../images/love.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+	&:hover {
+		background-color: $bg-color;
+	}
+}
