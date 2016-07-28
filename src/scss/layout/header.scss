@@ -17,8 +17,9 @@ header {
 		letter-spacing: 5px;
 		color: $font-color;
 		transition: .5s;
-		&:hover {
-			border-top: 5px solid $bg-color;
-		}
+	}
+	nav a:hover,
+	.active {
+		border-top: 5px solid $bg-color;
 	}
 }
