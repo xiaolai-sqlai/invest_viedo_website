@@ -1,0 +1,18 @@
+.newscontent {
+	margin-top: 50px;
+	article {
+		min-height: 940px;
+		margin-right: 30px;
+		padding: 40px;
+		border-radius: 5px;
+		box-shadow: 0px 3px 20px $shadow-color;
+	}
+	h1 {
+		margin-bottom: 45px;		
+		padding: 10px 0 25px 0;
+		border-bottom: 1px solid #000;
+		font-size: 36px;	
+		text-align: center;
+		letter-spacing: 20px;
+	}
+}

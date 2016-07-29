@@ -1,0 +1,23 @@
+.comment {
+	margin-top: 35px;
+	min-height: 275px;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 3px 20px $shadow-color;
+	h2 {
+		font-size: 24px;
+		color: $dfont-color;
+		letter-spacing: 10px;
+	}
+	textarea {
+		box-sizing: border-box;
+		padding: 10px;
+		width: 100%;
+		min-height: 140px;
+		border: none;
+	}
+	.more {
+		float: right;
+		margin-top: 10px;
+	}
+}

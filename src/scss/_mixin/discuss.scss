@@ -1,0 +1,29 @@
+.discuss {
+	margin-top: 35px;
+	margin-bottom: 50px;
+	padding: 20px 40px 40px 40px;
+	border-radius: 5px;
+	box-shadow: 0px 3px 20px $shadow-color;
+	&>li {
+		padding: 15px 0;
+		border-bottom: 1px solid $border-color;
+		div {
+			margin-top: 10px;
+		}
+	}
+	p,
+	span,
+	h3,
+	h4 {
+		line-height: 24px;
+		font-size: 14px;
+	}
+	span {
+		color: $lfont-color;
+		margin-left: 10px;
+	}
+	h4 {
+		margin-right: 20px;
+		color: $font-color;
+	}
+}
