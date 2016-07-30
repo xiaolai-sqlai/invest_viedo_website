@@ -18,7 +18,9 @@
 @import "_mixin/video_item.scss";
 @import "_mixin/recommend.scss";
 @import "_mixin/comment.scss";
-@import '_mixin/discuss.scss';
+@import "_mixin/discuss.scss";
+@import "_mixin/multititle.scss";
+@import "_mixin/shortcut.scss";
 
 @import "layout/header.scss";
 @import "layout/banner.scss";
@@ -30,3 +32,4 @@
 @import "layout/contentlist.scss";
 @import "layout/videocontainer.scss";
 @import "layout/newscontent.scss";
+@import "layout/videocontent.scss";

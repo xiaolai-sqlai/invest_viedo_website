@@ -1,0 +1,24 @@
+.shortcut {
+	height: 60px;
+	margin-top: 20px;
+	margin-right: 30px;
+	border-radius: 5px;
+	box-shadow: 0px 3px 20px $shadow-color;
+	a {
+		float: right;
+		margin-top: 10px;
+		height: 40px;
+		width: 120px;
+		text-align: center;
+		transition: opacity .5s;
+		&:hover {
+			opacity: 0.6;
+		}
+	}
+	img {
+		height: 100%;
+	}
+	a:not(:last-child) {
+		border-left: 1px solid $gray;
+	}
+}
