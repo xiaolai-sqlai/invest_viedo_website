@@ -9,15 +9,57 @@
 	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+	<div id="mask" class="none">
+		<div id="loading" class="none">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+		<div id="login_form" class="container none">
+			<a id="login-close" class="close f-right" href="#"></a>
+			<h2>登陆</h2>
+			<input id="login-username" class="col-12 box" type="text" name="username" placeholder="邮箱地址">
+			<input id="login-password" class="col-12 box" type="text" name="password" placeholder="密码">
+			<div class="outer col-12">
+				<a class="f-right" href="#">注册</a>
+				<a class="f-right" href="#">忘记密码</a>
+			</div>
+			<div id="error" class="col-12"></div>
+			<button id="login-centain" class="container">登陆</button>
+		</div>
+		<div id="register_form" class="container none">
+			<a id="register-close" class="close f-right" href="#"></a>
+			<h2>立即注册</h2>
+			<input id="register-username" class="col-12 box" type="text" name="username" placeholder="邮箱地址">
+			<input id="register-password" class="col-12 box" type="text" name="password" placeholder="密码">
+			<input id="register-password" class="col-12 box" type="text" name="password" placeholder="确认密码">
+			<div id="error" class="col-12"></div>
+			<button id="register-centain" class="container">注册</button>
+		</div>
+	</div>
 	<header id="header">
-		<div class="container">
+		<div class="container outer">
 			<a class="logo f-left" href="/index"></a>
-			<nav class="f-right overflow-hidden">
+			<nav class="f-left overflow-hidden">
 				<a href="#">每日操盘计划</a>
 				<a href="#">视频课程</a>
 				<a href="#">公司日常</a>
 				<a href="#">主题投资活动</a>
 			</nav>
+			<div class="f-right login_group none">
+				<a id="group_login-btn" href="#">登陆</a>
+				<a id="group_register-btn" href="#">注册</a>				
+			</div>
+			<div class="f-right logined_group">
+				<div class="f-left">
+					<p>username</p>
+					<ul class="none">
+						<li><a href="#">个人中心</a></li>
+						<li><a href="#">我的视频</a></li>
+					</ul>
+				</div>
+				<a class="f-left" href="#">退出</a>
+			</div>
 		</div>
 	</header>
 	<ul id="banner">

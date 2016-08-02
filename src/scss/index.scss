@@ -21,6 +21,9 @@
 @import "_mixin/discuss.scss";
 @import "_mixin/multititle.scss";
 @import "_mixin/shortcut.scss";
+@import "_mixin/mask.scss";
+@import "_mixin/loading.scss";
+@import "_mixin/login_register_form.scss";
 
 @import "layout/header.scss";
 @import "layout/banner.scss";
@@ -33,3 +36,4 @@
 @import "layout/videocontainer.scss";
 @import "layout/newscontent.scss";
 @import "layout/videocontent.scss";
+@import "layout/login_group.scss";
